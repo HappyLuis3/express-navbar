@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>My Homework Assignments</title>
+  <base href="/"> <!-- i realized that the issue with loading the website was this
+  where it read them as something else that computer read  -->
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      margin: 0;
+      padding: 0;
+      line-height: 1.6;
+    }
+    nav {
+      display: flex;
+      justify-content: space-around;
+      background-color: #2c3e50;
+      padding: 1rem;
+    }
+    nav a {
+      color: white;
+      text-decoration: none;
+      font-weight: bold;
+      padding: 0.5rem 1rem;
+      border-radius: 4px;
+      transition: background-color 0.3s;
+    }
+    nav a:hover {
+      background-color: #34495e;
+    }
+    .container {
+      max-width: 800px;
+      margin: 2rem auto;
+      padding: 0 1rem;
+    }
+    h1 {
+      color: #2c3e50;
+    }
+  </style>
+</head>
+<body>
+  <nav>
+    <a href="/climate-crisis">Climate Crisis</a>
+    <a href="/typesetting">Typesetting</a>
+    <a href="/four-algorithms">Four Algorithms</a>
+  </nav>
+
+  <div class="container">
+    <h1>My Homework Assignments</h1>
+    <p>Click on one of the links above to visit the corresponding route.</p>
+  </div>
+</body>
+</html>
